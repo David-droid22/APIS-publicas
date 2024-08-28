@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Suite de pruebas]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="Test GetSingleObject(failed)">
+    <parameter name="expectedStatusCode" value="200"/>
+    <parameter name="id" value="/4"/>
+    <classes>
+      <class name="test.APIPublic.GetSingleObject">
+        <methods>
+          <include name="getSingleObject"/>
+        </methods>
+      </class> <!-- test.APIPublic.GetSingleObject -->
+    </classes>
+  </test> <!-- Test GetSingleObject(failed) -->
+</suite> <!-- Failed suite [Suite de pruebas] -->

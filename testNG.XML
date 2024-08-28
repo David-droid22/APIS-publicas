@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite de pruebas" thread-count="1" parallel="tests">
+
+    <test name="Test GetSingleObject">
+    	<parameter name="id" value="/4"></parameter>
+    	<parameter name="expectedStatusCode" value="200"></parameter>
+        <classes>
+            <class name="test.APIPublic.GetSingleObject"> </class>
+        </classes>
+    </test>
+
+    
+</suite>
